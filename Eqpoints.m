@@ -23,6 +23,13 @@ Ie = ge * (x * (t - te) - x);
 r = 0.0068;
 xr = 1.6;
 s = 4;
+gc = 16;
+ge = 1.5;
+theta = -0.25;
+tc = 10;
+te = 2;
+Vs = 2;
+landa = 10;
 
 xdot = y - a * x^3 + b * x^2 + I - z + Ie + Ic;
 ydot = c - d * x^2 - y;
